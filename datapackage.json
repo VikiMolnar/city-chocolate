@@ -1,0 +1,145 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "chocolate.csv",
+      "path": "500_cities_san-antonio_obesity.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "StateAbbr",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "StateDesc",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "CityName",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "GeographicLevel",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "DataSource",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Category",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "UniqueID",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Measure",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Data_Value_Unit",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "DataValueTypeID",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Data_Value_Type",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Data_Value",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Data_Value_Footnote_Symbol",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Data_Value_Footnote",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Low_Confidence_Limit",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "High_Confidence_Limit",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "PopulationCount",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "GeoLocation",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "CategoryID",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "MeasureId",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "CityFIPS",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "TractFIPS",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Short_Question_Text",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "obesity-cividi",
+  "title": "Obesity date from 500 cities.",
+  "description": "neighbour mapping",
+  "homepage": "https://smartuse.ch",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Viktoria",
+      "role": "author"
+    }
+  ]
+}
