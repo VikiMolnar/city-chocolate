@@ -14,7 +14,7 @@
           },
           {
             "name": "StateAbbr",
-            "type": "integer",
+            "type": "string",
             "format": "default"
           },
           {
@@ -44,7 +44,7 @@
           },
           {
             "name": "UniqueID",
-            "type": "integer",
+            "type": "any",
             "format": "default"
           },
           {
@@ -69,7 +69,7 @@
           },
           {
             "name": "Data_Value",
-            "type": "integer",
+            "type": "number",
             "format": "default"
           },
           {
@@ -84,22 +84,22 @@
           },
           {
             "name": "Low_Confidence_Limit",
-            "type": "integer",
+            "type": "number",
             "format": "default"
           },
           {
             "name": "High_Confidence_Limit",
-            "type": "integer",
+            "type": "number",
             "format": "default"
           },
           {
             "name": "PopulationCount",
-            "type": "integer",
+            "type": "number",
             "format": "default"
           },
           {
             "name": "GeoLocation",
-            "type": "string",
+            "type": "geopoint",
             "format": "default"
           },
           {
