@@ -94,12 +94,12 @@
           },
           {
             "name": "PopulationCount",
-            "type": "number",
+            "type": "any",
             "format": "default"
           },
           {
             "name": "GeoLocation",
-            "type": "geopoint",
+            "type": "any",
             "format": "default"
           },
           {
